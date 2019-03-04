@@ -8,7 +8,7 @@
 
 import UIKit
 
-public protocol CreditCardValidatorViewDelegate: class {
+@objc public protocol CreditCardValidatorViewDelegate: class {
     func didEdit(number: String)
     func didEdit(expiryDate: String)
     func didEdit(cvc: String)
@@ -34,7 +34,7 @@ open class CreditCardValidatorView: NibView {
     @IBOutlet weak var stackView: UIStackView!
     
     // MARK: - Properties
-    open weak var delegate: CreditCardValidatorViewDelegate?
+    @objc open weak var delegate: CreditCardValidatorViewDelegate?
     private var textWidth: CGFloat {
         return (stackView.bounds.width - C.curtailNumberWidth) / 2
     }
