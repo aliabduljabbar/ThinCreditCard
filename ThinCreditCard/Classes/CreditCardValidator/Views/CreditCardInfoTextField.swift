@@ -28,7 +28,17 @@ final class CreditCardInfoTextField: UITextField {
         }
     }
     
-//    private var 
+    var placeholderColor : UIColor = .lightGray {
+        didSet {
+            attributedPlaceholder = NSAttributedString(string: placeholder ?? "", attributes: [NSAttributedString.Key.foregroundColor: placeholderColor])
+        }
+    }
+    
+    override var placeholder: String? {
+        didSet {
+            attributedPlaceholder = NSAttributedString(string: placeholder ?? "", attributes: [NSAttributedString.Key.foregroundColor: placeholderColor])
+        }
+    }
     
     enum Info {
         case number

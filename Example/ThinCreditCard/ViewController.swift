@@ -29,7 +29,9 @@ class ViewController: UIViewController {
         cardNumberView.delegate = self
         cardNumberView.setFont(font: UIFont(name: "HelveticaNeue-Bold", size: 20.0)!)
         cardNumberView.setTextColor(textColor: UIColor.blue)
-        cardNumberView.backgroundColor = UIColor.gray
+//        cardNumberView.backgroundColor = UIColor.lightGray
+        cardNumberView.setPlaceholderColor(placeholderColor: UIColor.lightGray)
+
     }
 }
 

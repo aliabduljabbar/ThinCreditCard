@@ -64,6 +64,12 @@ open class CreditCardValidatorView: NibView {
         cvcTextField.validateColor = validationColor
     }
     
+    public func setPlaceholderColor(placeholderColor:UIColor) {
+        cardNumberTextField.placeholderColor = placeholderColor
+        expiryDateTextField.placeholderColor = placeholderColor
+        cvcTextField.placeholderColor = placeholderColor
+    }
+    
     override open func awakeFromNib() {
         super.awakeFromNib()
         configure()

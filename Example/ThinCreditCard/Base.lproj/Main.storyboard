@@ -22,47 +22,50 @@
                                 <rect key="frame" x="16" y="36" width="343" height="250"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Card Information" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2CV-gZ-5j0" userLabel="Card">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="62.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OfY-cM-uWZ" userLabel="Card Number Label">
-                                        <rect key="frame" x="0.0" y="50" width="343" height="50"/>
+                                        <rect key="frame" x="0.0" y="62.5" width="343" height="62.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Expiry Date:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UW0-vY-Q2N" userLabel="Card Expiration Label">
-                                        <rect key="frame" x="0.0" y="100" width="343" height="50"/>
+                                        <rect key="frame" x="0.0" y="125" width="343" height="62.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CVC:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jsS-jZ-cHV" userLabel="Card CVC Label">
-                                        <rect key="frame" x="0.0" y="150" width="343" height="50"/>
+                                        <rect key="frame" x="0.0" y="187.5" width="343" height="62.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h4n-jT-qDd" customClass="CreditCardValidatorView" customModule="ThinCreditCard">
-                                        <rect key="frame" x="0.0" y="200" width="343" height="50"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="1Yt-hs-CqV"/>
-                                        </constraints>
-                                    </view>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="250" id="gaw-DH-Ekk"/>
                                 </constraints>
                             </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h4n-jT-qDd" customClass="CreditCardValidatorView" customModule="ThinCreditCard">
+                                <rect key="frame" x="16" y="318" width="343" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="1Yt-hs-CqV"/>
+                                </constraints>
+                            </view>
                         </subviews>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="h4n-jT-qDd" firstAttribute="top" secondItem="odb-95-mYL" secondAttribute="bottom" constant="32" id="EmK-f3-Mg2"/>
                             <constraint firstAttribute="trailing" secondItem="odb-95-mYL" secondAttribute="trailing" constant="16" id="L2x-YO-kmM"/>
                             <constraint firstItem="odb-95-mYL" firstAttribute="top" secondItem="uiM-PK-RZa" secondAttribute="top" constant="16" id="NmL-j5-aGL"/>
                             <constraint firstItem="odb-95-mYL" firstAttribute="leading" secondItem="uiM-PK-RZa" secondAttribute="leading" constant="16" id="jxc-Xs-dKW"/>
+                            <constraint firstItem="h4n-jT-qDd" firstAttribute="leading" secondItem="uiM-PK-RZa" secondAttribute="leading" constant="16" id="oU7-pG-4sJ"/>
+                            <constraint firstItem="uiM-PK-RZa" firstAttribute="trailing" secondItem="h4n-jT-qDd" secondAttribute="trailing" constant="16" id="rYu-rD-cXE"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="uiM-PK-RZa"/>
                     </view>
