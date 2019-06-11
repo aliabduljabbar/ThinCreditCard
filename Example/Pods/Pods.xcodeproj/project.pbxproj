@@ -7,423 +7,441 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09F48A9A9D51B9EF053CDB106F80C36A /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0744EB3ED6AC9E29F830AA93E4A4EE6 /* Media.xcassets */; };
-		167F2CB5DCD9E9EB6D01D7F876CCE97C /* String+SwiftLuhn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E140FBF70ECEA8584215256FF3E071 /* String+SwiftLuhn.swift */; };
-		18DBD9C1FBB9E00574CE5130730E8E29 /* ThinCreditCard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64DC6634308947F469B96DB737FC14F3 /* ThinCreditCard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		240B37D632D74650D7EF1FEABE15C253 /* Pods-ThinCreditCard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E032E190F4E0E8C06D8E5FA7B79DB8B5 /* Pods-ThinCreditCard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37A3361001D25562174CC766B9A8A74D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		3EC08B6BA9CBC60140837C1B4349E074 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		3F6DA284B14942B0CBA91D2587D68DB8 /* CreditCardTextFormatterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84F40BB6EDD7C23ACD6F2E2E3E6B4F8 /* CreditCardTextFormatterProtocol.swift */; };
-		4D493134CE5238C36BFA304A57299FD2 /* ThinCreditCard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FF1CA4F32395877CE489DC66F409C6C4 /* ThinCreditCard.bundle */; };
-		60E693043435A8975A851B140457E23F /* CreditCardValidatorView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 12FA27D83FC131512A9CCC40822D8AB6 /* CreditCardValidatorView.xib */; };
-		642BCB0DCB10CD5E46B122DD52356319 /* CreditCardInfoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4418FAA359217018DE2FBF4D410768B /* CreditCardInfoTextField.swift */; };
-		6D1723ECF660FF4566C7052B6E8FC842 /* Pods-ThinCreditCard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 177AF1335BCDE3AB5DBFECD7C6883FE5 /* Pods-ThinCreditCard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		71E3CB72739FE5016C935D2366E6C2B7 /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA60BB53AFA1881BDCEC08770A28DBE /* NibView.swift */; };
-		861C69416FF69DCC963E407E956AFAA4 /* CreditCardCvcValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4743492C0833434E5D6579A7C504DE8D /* CreditCardCvcValidator.swift */; };
-		A59BEEE6F15C258020E4C9021A8DB64A /* Pods-ThinCreditCard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3047B34587D3E71C0233E74234A5EB51 /* Pods-ThinCreditCard_Tests-dummy.m */; };
-		ADD48C5E037AB9ED68563E829E04059D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		AF2F114CF2E9E5354AD9F057569DEA65 /* Pods-ThinCreditCard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 388070648BD915EFF5E7FB83FFB41477 /* Pods-ThinCreditCard_Example-dummy.m */; };
-		B2AED02383BB07A22301A9DCE5DA01B3 /* CreditCardValidatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3638A8CD30B3E38E7EF71A87BC9CC2E /* CreditCardValidatorView.swift */; };
-		B95D83EF90E1F231C99D9EBAA4588837 /* CreditCardTextFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A7BE1358EAB7014B221FA5F4185740 /* CreditCardTextFormatter.swift */; };
-		C6D9DED2193CA67D61694AA23EE1A6C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		C89292EB71A9B04FFBD91DEE4A91BA67 /* CreditCardTextValidatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375AA77C0BE61C0C43915C6E125F146E /* CreditCardTextValidatorProtocol.swift */; };
-		C9A90F71478B3704F37F6ECA287CB471 /* CreditCardExpiryDateValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8B0ED8AA85DE3FA64C2DB889F752DE /* CreditCardExpiryDateValidator.swift */; };
-		D08C4D4A2B45BDE6F2DA7744BB07378C /* ThinCreditCard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D0367C1245CE34A5BFA7E76308D32F /* ThinCreditCard-dummy.m */; };
-		DEF1729566AC3B9A6F2EA62A6C02B5E1 /* CreditCardImageValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA2F9A37A433C4E05A4A3B18E16730F /* CreditCardImageValidator.swift */; };
-		EC9B3151CAFBE970B6F20861EBE41836 /* String+Substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0869FD15FBC4E22C1431B2003555B6 /* String+Substring.swift */; };
-		EFD8D6D005BF0883587D2AE0444E2342 /* CreditCardNumberValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089286F84EE1F43FA3602FB88ACF6879 /* CreditCardNumberValidator.swift */; };
-		FB5235C0D30A072D2C45AE5CA397458B /* SwiftLuhn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4290CB2EBDCF83839B9317F7E36C6341 /* SwiftLuhn.swift */; };
+		0E9CC646200AC7D431C80324E086D6DD /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74EA3EEEC1C963FBB17E45555FD4BEA /* NibView.swift */; };
+		1366E0B7F4AC1598DD431BA41F63FBA3 /* SwiftLuhn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B5096F83A5F66A694D418430DC57DB /* SwiftLuhn.swift */; };
+		1E2EC4D06725835EA51F3F89B7E02318 /* ThinCreditCard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11BCD10AFD89E9A200F1E746A011DE2F /* ThinCreditCard-dummy.m */; };
+		31EE1CBB0E7FE76E4F5F1F8E2BDCE0F2 /* CreditCardNumberValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAD0334F870EEB37343CDAE28B0D54A /* CreditCardNumberValidator.swift */; };
+		416135148111E8A511FB540539E39449 /* String+Substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4734A83CEB52879118870BEF29BFC093 /* String+Substring.swift */; };
+		43772A12073F820B4557B0CC02CA3E90 /* Pods-ThinCreditCard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF0815FA578E012D4EFE05D49A8605DD /* Pods-ThinCreditCard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43CEF8BD0F24B2C499125896EFF00AA6 /* CreditCardTextFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C12765B2DD10CBC0E5460D6CA7DD88 /* CreditCardTextFormatter.swift */; };
+		4440F08253C7F842AD37920993FC445A /* CreditCardImageValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0833F6E5D93BB0AB2D51BB09D15344 /* CreditCardImageValidator.swift */; };
+		49EE2898E0602B56096C6F08F3260677 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		4A411030D9D0E3F79F023E21AF039BE5 /* CreditCardValidatorView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 103DBCBB91A75BB6628092427850358A /* CreditCardValidatorView.xib */; };
+		70B775FF8F3F6DE8047143433430A260 /* CreditCardInfoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B757E9ED251B03DFDF70B2242731A7E7 /* CreditCardInfoTextField.swift */; };
+		7B1F2278E84CFC2EAAEBD9C99909DC92 /* ThinCreditCard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE31E08DAC5B541749975E8C7B6849D3 /* ThinCreditCard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CC0C323C0CA6CB9C2C3CABD67B2F8B7 /* Pods-ThinCreditCard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06262BBA9E71F15384D0EFDCD3A1D0BF /* Pods-ThinCreditCard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DA7DA68E3EB3153CF3696763D28CE62 /* CreditCardCvcValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DFEEF00AC0E7A55DF34517520EE6D7 /* CreditCardCvcValidator.swift */; };
+		80DDDC9105AF6B9D4A0333E4239E3267 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		8D26309540B42383FD5041C295061020 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		8F8613B5F9D3AADAAEA926D53B8D4C2B /* CreditCardValidatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F8C3E75B8191CFC944960BA63AEFB9 /* CreditCardValidatorView.swift */; };
+		9BD7266E2D6BED1D30A9C2D2DDD72AAF /* String+SwiftLuhn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E69426E6ABB6C7E5EEF259139CA690 /* String+SwiftLuhn.swift */; };
+		A514A9674984F69795728FEF26E72DE3 /* Pods-ThinCreditCard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6504EEAA6F5D6054FF1719816CFD2671 /* Pods-ThinCreditCard_Tests-dummy.m */; };
+		B87370CBE495C656D0604672BDD9A359 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 294686B60165DF42AA6F7C84F04F5013 /* Media.xcassets */; };
+		CE16DB5A5F1054D92404BB9C35EC8B4E /* CreditCardTextFormatterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12034D5182FF0E176C191B7F2E28CBCB /* CreditCardTextFormatterProtocol.swift */; };
+		D77006CA7B566A24E497C17A8ED729C3 /* CreditCardExpiryDateValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B799EF6E8742013E3B19B45BCA43614D /* CreditCardExpiryDateValidator.swift */; };
+		D804AA950392D31D8C9CBEDAA20E9DCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		E2E6B4875052A68B4B2E200E4BE41392 /* CreditCardTextValidatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7EE298F50902C1278D0D1AD254684B /* CreditCardTextValidatorProtocol.swift */; };
+		E627A36E4E5DF8A88BBD6A4951715CE5 /* Pods-ThinCreditCard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E88425205DDF1345538EC795F269A1F /* Pods-ThinCreditCard_Example-dummy.m */; };
+		F97423F4A093C29E0463E4102A87E2C5 /* ThinCreditCard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ED8751BD1B71EAE4D07D562D2BEBECB3 /* ThinCreditCard.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7CDEBEC7D4B6E2DB2C6F2C379CCA4AC6 /* PBXContainerItemProxy */ = {
+		CA9C0A8EAA1668389201F888DADCBD2A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 51DB5627754839017756E4917064A2C5;
+			remoteGlobalIDString = EED8077789851A294E9E23D95ED4D56E;
+			remoteInfo = "ThinCreditCard-ThinCreditCard";
+		};
+		CFD950B9ECBD3D396B2D53D872E910DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70CC5465394797570D3DB072094DFF4C;
 			remoteInfo = ThinCreditCard;
 		};
-		D8E3799D760048D531BF48A00F8FA9B8 /* PBXContainerItemProxy */ = {
+		E329559DDF9275BA181B99E1ABB2F9EB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8F2A22C8C2C1BB45B63B6FC54AE77F86;
-			remoteInfo = "ThinCreditCard-ThinCreditCard";
+			remoteGlobalIDString = E2380FB69040DB54604B58B02443E860;
+			remoteInfo = "Pods-ThinCreditCard_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		089286F84EE1F43FA3602FB88ACF6879 /* CreditCardNumberValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreditCardNumberValidator.swift; sourceTree = "<group>"; };
-		12FA27D83FC131512A9CCC40822D8AB6 /* CreditCardValidatorView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = CreditCardValidatorView.xib; sourceTree = "<group>"; };
-		177AF1335BCDE3AB5DBFECD7C6883FE5 /* Pods-ThinCreditCard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ThinCreditCard_Example-umbrella.h"; sourceTree = "<group>"; };
-		17EF262F4228B5CF37B7651C20716C69 /* Pods-ThinCreditCard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThinCreditCard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		215C5C250FD985437BC066A1B0F89737 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2BDA194440E26F4D91798B00EF397856 /* Pods-ThinCreditCard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ThinCreditCard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2CA2F9A37A433C4E05A4A3B18E16730F /* CreditCardImageValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreditCardImageValidator.swift; sourceTree = "<group>"; };
-		3047B34587D3E71C0233E74234A5EB51 /* Pods-ThinCreditCard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThinCreditCard_Tests-dummy.m"; sourceTree = "<group>"; };
-		35D130C25326ADCA5E797C134816CBB4 /* ThinCreditCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ThinCreditCard.framework; path = ThinCreditCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		35F9132890350525F3F400E19113F50F /* Pods-ThinCreditCard_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThinCreditCard_Example-resources.sh"; sourceTree = "<group>"; };
-		375AA77C0BE61C0C43915C6E125F146E /* CreditCardTextValidatorProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreditCardTextValidatorProtocol.swift; sourceTree = "<group>"; };
-		37C4EDA063508BE517BDE0ECEB955A00 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		388070648BD915EFF5E7FB83FFB41477 /* Pods-ThinCreditCard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThinCreditCard_Example-dummy.m"; sourceTree = "<group>"; };
-		4290CB2EBDCF83839B9317F7E36C6341 /* SwiftLuhn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwiftLuhn.swift; sourceTree = "<group>"; };
-		44381D104ABD98E36ADA762D51FF24B3 /* ThinCreditCard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ThinCreditCard.xcconfig; sourceTree = "<group>"; };
-		4743492C0833434E5D6579A7C504DE8D /* CreditCardCvcValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreditCardCvcValidator.swift; sourceTree = "<group>"; };
-		4E0869FD15FBC4E22C1431B2003555B6 /* String+Substring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Substring.swift"; sourceTree = "<group>"; };
-		5A9EFE042AD762FD256B1E89F0B2B752 /* ResourceBundle-ThinCreditCard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ThinCreditCard-Info.plist"; sourceTree = "<group>"; };
-		5B68676128EEE8D0B118F0BEB2F4DF24 /* Pods-ThinCreditCard_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThinCreditCard_Tests-resources.sh"; sourceTree = "<group>"; };
-		5FDD81E91126C82B69065CA3FB9FBA9C /* Pods-ThinCreditCard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThinCreditCard_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6094EED1331B667B52346BDC3FED8B72 /* Pods-ThinCreditCard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ThinCreditCard_Example.modulemap"; sourceTree = "<group>"; };
-		64DC6634308947F469B96DB737FC14F3 /* ThinCreditCard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThinCreditCard-umbrella.h"; sourceTree = "<group>"; };
-		70C4C15C63D49C727ECFBFDF005D5095 /* Pods-ThinCreditCard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThinCreditCard_Example-frameworks.sh"; sourceTree = "<group>"; };
-		720CC44EDE6B399F8E589F5A070EE2D4 /* ThinCreditCard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThinCreditCard-prefix.pch"; sourceTree = "<group>"; };
-		74AFCD124654CABC855125BE0B48358A /* Pods_ThinCreditCard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ThinCreditCard_Tests.framework; path = "Pods-ThinCreditCard_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		74D0367C1245CE34A5BFA7E76308D32F /* ThinCreditCard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ThinCreditCard-dummy.m"; sourceTree = "<group>"; };
-		772391D6087345A999EC6CA476FF9B34 /* Pods-ThinCreditCard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThinCreditCard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		90A7BE1358EAB7014B221FA5F4185740 /* CreditCardTextFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreditCardTextFormatter.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F24D438B69EEF6E782E38BBE2F1E79A /* Pods-ThinCreditCard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ThinCreditCard_Tests.modulemap"; sourceTree = "<group>"; };
-		A84E29A7877B0C12EC98450F60311B63 /* Pods-ThinCreditCard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThinCreditCard_Example.release.xcconfig"; sourceTree = "<group>"; };
-		ADD162B1A1055D050E9268F11AE5B694 /* Pods-ThinCreditCard_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThinCreditCard_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		B84F40BB6EDD7C23ACD6F2E2E3E6B4F8 /* CreditCardTextFormatterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreditCardTextFormatterProtocol.swift; sourceTree = "<group>"; };
-		BFA60BB53AFA1881BDCEC08770A28DBE /* NibView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NibView.swift; sourceTree = "<group>"; };
-		C0744EB3ED6AC9E29F830AA93E4A4EE6 /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = ThinCreditCard/Assets/Media.xcassets; sourceTree = "<group>"; };
-		C3638A8CD30B3E38E7EF71A87BC9CC2E /* CreditCardValidatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreditCardValidatorView.swift; sourceTree = "<group>"; };
-		C8D1A38209D8731917D62E839F386A83 /* Pods-ThinCreditCard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThinCreditCard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CC44EC3C1FE6B24501966144851E177A /* Pods-ThinCreditCard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ThinCreditCard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CE8B0ED8AA85DE3FA64C2DB889F752DE /* CreditCardExpiryDateValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreditCardExpiryDateValidator.swift; sourceTree = "<group>"; };
-		D6E140FBF70ECEA8584215256FF3E071 /* String+SwiftLuhn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+SwiftLuhn.swift"; sourceTree = "<group>"; };
-		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E032E190F4E0E8C06D8E5FA7B79DB8B5 /* Pods-ThinCreditCard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ThinCreditCard_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E4418FAA359217018DE2FBF4D410768B /* CreditCardInfoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreditCardInfoTextField.swift; sourceTree = "<group>"; };
-		E72615FBD51A1A7811ECC3B2BBC98EC7 /* ThinCreditCard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ThinCreditCard.modulemap; sourceTree = "<group>"; };
-		EA23BB06287BDE01C613BB71950B7E75 /* Pods_ThinCreditCard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ThinCreditCard_Example.framework; path = "Pods-ThinCreditCard_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F943382CCB75507E49B2F1E2DFB7450C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FD2063198FA363B003E6EF46196296DC /* Pods-ThinCreditCard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThinCreditCard_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FF1CA4F32395877CE489DC66F409C6C4 /* ThinCreditCard.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ThinCreditCard.bundle; path = ThinCreditCard.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		06262BBA9E71F15384D0EFDCD3A1D0BF /* Pods-ThinCreditCard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ThinCreditCard_Example-umbrella.h"; sourceTree = "<group>"; };
+		0A9810F6CC31A0B7AE760611A42B1366 /* Pods_ThinCreditCard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ThinCreditCard_Tests.framework; path = "Pods-ThinCreditCard_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		103DBCBB91A75BB6628092427850358A /* CreditCardValidatorView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = CreditCardValidatorView.xib; sourceTree = "<group>"; };
+		11BCD10AFD89E9A200F1E746A011DE2F /* ThinCreditCard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ThinCreditCard-dummy.m"; sourceTree = "<group>"; };
+		12034D5182FF0E176C191B7F2E28CBCB /* CreditCardTextFormatterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreditCardTextFormatterProtocol.swift; sourceTree = "<group>"; };
+		16BABD815C9E9D995072A059C120FE1D /* Pods-ThinCreditCard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThinCreditCard_Example-frameworks.sh"; sourceTree = "<group>"; };
+		18F8C3E75B8191CFC944960BA63AEFB9 /* CreditCardValidatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreditCardValidatorView.swift; sourceTree = "<group>"; };
+		1CE7EFE459670CD37C08AA011E569585 /* Pods-ThinCreditCard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThinCreditCard_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1D16EC541D786FF1C9F8CE16178103F0 /* ThinCreditCard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ThinCreditCard-Info.plist"; sourceTree = "<group>"; };
+		294686B60165DF42AA6F7C84F04F5013 /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = ThinCreditCard/Assets/Media.xcassets; sourceTree = "<group>"; };
+		2AC67E1C189F2E06EDE67CF23C939D5B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2C7EE298F50902C1278D0D1AD254684B /* CreditCardTextValidatorProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreditCardTextValidatorProtocol.swift; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		46EE62F58AAC645C28304D2883F4FF27 /* Pods-ThinCreditCard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ThinCreditCard_Tests.modulemap"; sourceTree = "<group>"; };
+		4734A83CEB52879118870BEF29BFC093 /* String+Substring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Substring.swift"; sourceTree = "<group>"; };
+		59B5096F83A5F66A694D418430DC57DB /* SwiftLuhn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwiftLuhn.swift; sourceTree = "<group>"; };
+		6504EEAA6F5D6054FF1719816CFD2671 /* Pods-ThinCreditCard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThinCreditCard_Tests-dummy.m"; sourceTree = "<group>"; };
+		6F48F17EBB45604E98BA645850A7A64A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		77087159634ED5B788B67F89B34621EA /* Pods-ThinCreditCard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThinCreditCard_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7C6FC8A7D8FC353240F8DDB9F8F7D7AB /* ThinCreditCard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThinCreditCard-prefix.pch"; sourceTree = "<group>"; };
+		7CBC64BD27847EAC5D19B7CA24DAC397 /* Pods-ThinCreditCard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThinCreditCard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		96E69426E6ABB6C7E5EEF259139CA690 /* String+SwiftLuhn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+SwiftLuhn.swift"; sourceTree = "<group>"; };
+		9BA7522FC0A100AACC27CBAA46142CB4 /* Pods_ThinCreditCard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ThinCreditCard_Example.framework; path = "Pods-ThinCreditCard_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DA9FBF04046150207537C4994230956 /* ThinCreditCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ThinCreditCard.framework; path = ThinCreditCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E88425205DDF1345538EC795F269A1F /* Pods-ThinCreditCard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThinCreditCard_Example-dummy.m"; sourceTree = "<group>"; };
+		A2C12765B2DD10CBC0E5460D6CA7DD88 /* CreditCardTextFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreditCardTextFormatter.swift; sourceTree = "<group>"; };
+		A886876DEA8F21354EB749167B8C619C /* ResourceBundle-ThinCreditCard-ThinCreditCard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ThinCreditCard-ThinCreditCard-Info.plist"; sourceTree = "<group>"; };
+		AB483113FF36E15DEEEAA24A0C8B4DC7 /* Pods-ThinCreditCard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThinCreditCard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AC0833F6E5D93BB0AB2D51BB09D15344 /* CreditCardImageValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreditCardImageValidator.swift; sourceTree = "<group>"; };
+		AF4BF2D0C965F328C6561997C8ABEB9B /* ThinCreditCard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ThinCreditCard.modulemap; sourceTree = "<group>"; };
+		AFAD0334F870EEB37343CDAE28B0D54A /* CreditCardNumberValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreditCardNumberValidator.swift; sourceTree = "<group>"; };
+		B2F2C6CD9200C467A01EBF87BA3CAA38 /* Pods-ThinCreditCard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThinCreditCard_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B742857542067FBE7AE06B1AC65EA01B /* ThinCreditCard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ThinCreditCard.xcconfig; sourceTree = "<group>"; };
+		B74EA3EEEC1C963FBB17E45555FD4BEA /* NibView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NibView.swift; sourceTree = "<group>"; };
+		B757E9ED251B03DFDF70B2242731A7E7 /* CreditCardInfoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreditCardInfoTextField.swift; sourceTree = "<group>"; };
+		B799EF6E8742013E3B19B45BCA43614D /* CreditCardExpiryDateValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreditCardExpiryDateValidator.swift; sourceTree = "<group>"; };
+		BE31E08DAC5B541749975E8C7B6849D3 /* ThinCreditCard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThinCreditCard-umbrella.h"; sourceTree = "<group>"; };
+		BF0815FA578E012D4EFE05D49A8605DD /* Pods-ThinCreditCard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ThinCreditCard_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C58FF274B9D06666E4EC50DDBE475062 /* Pods-ThinCreditCard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ThinCreditCard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CDD66E6BB8703906C9BA388BFDFCCFB5 /* Pods-ThinCreditCard_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThinCreditCard_Example-Info.plist"; sourceTree = "<group>"; };
+		D5DFEEF00AC0E7A55DF34517520EE6D7 /* CreditCardCvcValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreditCardCvcValidator.swift; sourceTree = "<group>"; };
+		DA4A689841D170D3633DCE0A24FCE415 /* Pods-ThinCreditCard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ThinCreditCard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DF8AF2B53F4CB204EE5B08D364ACD038 /* Pods-ThinCreditCard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ThinCreditCard_Example.modulemap"; sourceTree = "<group>"; };
+		E60F5B3C82ED50763E52045E52EF1E71 /* Pods-ThinCreditCard_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThinCreditCard_Tests-Info.plist"; sourceTree = "<group>"; };
+		EBE970F796D9CC45285B2087D3537899 /* Pods-ThinCreditCard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThinCreditCard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		ED8751BD1B71EAE4D07D562D2BEBECB3 /* ThinCreditCard.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ThinCreditCard.bundle; path = "ThinCreditCard-ThinCreditCard.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFAA449E0FC299DCECAD79C8FC687740 /* ThinCreditCard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ThinCreditCard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		91C8BE438E7295EC1DF3C8308204E33F /* Frameworks */ = {
+		007BB88212D0D472F3AA3560556C9394 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F61F5AF37B708610E6B448095BA86F7 /* Frameworks */ = {
+		1A5E3F0BEF458F6750AF7FBB227E04E0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37A3361001D25562174CC766B9A8A74D /* Foundation.framework in Frameworks */,
-				ADD48C5E037AB9ED68563E829E04059D /* UIKit.framework in Frameworks */,
+				8D26309540B42383FD5041C295061020 /* Foundation.framework in Frameworks */,
+				80DDDC9105AF6B9D4A0333E4239E3267 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DBB9904BAD356F091BB809E712635310 /* Frameworks */ = {
+		3153A6C9BC7B699E0B2126537F4A59A3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6D9DED2193CA67D61694AA23EE1A6C2 /* Foundation.framework in Frameworks */,
+				D804AA950392D31D8C9CBEDAA20E9DCF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E57EA792A7EBC7830D38C0ABBF4D1DCE /* Frameworks */ = {
+		36ABA493D1EFFF3401D6FCA2A2D68DDD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EC08B6BA9CBC60140837C1B4349E074 /* Foundation.framework in Frameworks */,
+				49EE2898E0602B56096C6F08F3260677 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		157ADDF82752396C54247A4F753C1C49 /* Products */ = {
+		030C25A6299393BC9D2D5A5C9150BB7E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				EA23BB06287BDE01C613BB71950B7E75 /* Pods_ThinCreditCard_Example.framework */,
-				74AFCD124654CABC855125BE0B48358A /* Pods_ThinCreditCard_Tests.framework */,
-				FF1CA4F32395877CE489DC66F409C6C4 /* ThinCreditCard.bundle */,
-				35D130C25326ADCA5E797C134816CBB4 /* ThinCreditCard.framework */,
+				294686B60165DF42AA6F7C84F04F5013 /* Media.xcassets */,
 			);
-			name = Products;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		272A2528CC2BB7289C14E8AB4D7D3E39 /* Pods-ThinCreditCard_Tests */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F943382CCB75507E49B2F1E2DFB7450C /* Info.plist */,
-				9F24D438B69EEF6E782E38BBE2F1E79A /* Pods-ThinCreditCard_Tests.modulemap */,
-				CC44EC3C1FE6B24501966144851E177A /* Pods-ThinCreditCard_Tests-acknowledgements.markdown */,
-				17EF262F4228B5CF37B7651C20716C69 /* Pods-ThinCreditCard_Tests-acknowledgements.plist */,
-				3047B34587D3E71C0233E74234A5EB51 /* Pods-ThinCreditCard_Tests-dummy.m */,
-				ADD162B1A1055D050E9268F11AE5B694 /* Pods-ThinCreditCard_Tests-frameworks.sh */,
-				5B68676128EEE8D0B118F0BEB2F4DF24 /* Pods-ThinCreditCard_Tests-resources.sh */,
-				E032E190F4E0E8C06D8E5FA7B79DB8B5 /* Pods-ThinCreditCard_Tests-umbrella.h */,
-				C8D1A38209D8731917D62E839F386A83 /* Pods-ThinCreditCard_Tests.debug.xcconfig */,
-				FD2063198FA363B003E6EF46196296DC /* Pods-ThinCreditCard_Tests.release.xcconfig */,
-			);
-			name = "Pods-ThinCreditCard_Tests";
-			path = "Target Support Files/Pods-ThinCreditCard_Tests";
-			sourceTree = "<group>";
-		};
-		38E4407A47794E01879AF307A5BF2587 /* Validators */ = {
-			isa = PBXGroup;
-			children = (
-				4743492C0833434E5D6579A7C504DE8D /* CreditCardCvcValidator.swift */,
-				CE8B0ED8AA85DE3FA64C2DB889F752DE /* CreditCardExpiryDateValidator.swift */,
-				2CA2F9A37A433C4E05A4A3B18E16730F /* CreditCardImageValidator.swift */,
-				089286F84EE1F43FA3602FB88ACF6879 /* CreditCardNumberValidator.swift */,
-				375AA77C0BE61C0C43915C6E125F146E /* CreditCardTextValidatorProtocol.swift */,
-				A7C5BCE851E3CA815106C6C8E4F05271 /* Algorithm */,
-			);
-			name = Validators;
-			path = Validators;
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+		2FD24E5F3FC9BD7EF2F443D3621BD380 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
-				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		4E5CC105B9870EC402D180B3417D757B /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				BFA60BB53AFA1881BDCEC08770A28DBE /* NibView.swift */,
-				4E0869FD15FBC4E22C1431B2003555B6 /* String+Substring.swift */,
+				B74EA3EEEC1C963FBB17E45555FD4BEA /* NibView.swift */,
+				4734A83CEB52879118870BEF29BFC093 /* String+Substring.swift */,
 			);
 			name = Helpers;
 			path = ThinCreditCard/Classes/Helpers;
 			sourceTree = "<group>";
 		};
-		558C32D8C5EE6C75A465079D7B5F471D /* Views */ = {
+		4BCD0170ABE97C16524AB8F406A6B385 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				E4418FAA359217018DE2FBF4D410768B /* CreditCardInfoTextField.swift */,
-				C3638A8CD30B3E38E7EF71A87BC9CC2E /* CreditCardValidatorView.swift */,
-				12FA27D83FC131512A9CCC40822D8AB6 /* CreditCardValidatorView.xib */,
+				B757E9ED251B03DFDF70B2242731A7E7 /* CreditCardInfoTextField.swift */,
+				18F8C3E75B8191CFC944960BA63AEFB9 /* CreditCardValidatorView.swift */,
+				103DBCBB91A75BB6628092427850358A /* CreditCardValidatorView.xib */,
 			);
 			name = Views;
 			path = Views;
 			sourceTree = "<group>";
 		};
-		7C90E95E3D296A3CDB2FB649D0F68965 /* ThinCreditCard */ = {
+		4F5E6140EC6F288EB60CA07BCF93519B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B989317BB7293F31EE8DF155031F8F55 /* CreditCardValidator */,
-				4E5CC105B9870EC402D180B3417D757B /* Helpers */,
-				C6C1DDEEBE868E4B8CFD1045D3420454 /* Resources */,
-				8179CCC56F08259EE794B854F095A392 /* Support Files */,
-			);
-			name = ThinCreditCard;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				C79FFF8152A526C33EAB8BE41ADDC678 /* Development Pods */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				157ADDF82752396C54247A4F753C1C49 /* Products */,
-				E468D0E6C208218A5FD3ACCDC8530177 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		8179CCC56F08259EE794B854F095A392 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				37C4EDA063508BE517BDE0ECEB955A00 /* Info.plist */,
-				5A9EFE042AD762FD256B1E89F0B2B752 /* ResourceBundle-ThinCreditCard-Info.plist */,
-				E72615FBD51A1A7811ECC3B2BBC98EC7 /* ThinCreditCard.modulemap */,
-				44381D104ABD98E36ADA762D51FF24B3 /* ThinCreditCard.xcconfig */,
-				74D0367C1245CE34A5BFA7E76308D32F /* ThinCreditCard-dummy.m */,
-				720CC44EDE6B399F8E589F5A070EE2D4 /* ThinCreditCard-prefix.pch */,
-				64DC6634308947F469B96DB737FC14F3 /* ThinCreditCard-umbrella.h */,
+				A886876DEA8F21354EB749167B8C619C /* ResourceBundle-ThinCreditCard-ThinCreditCard-Info.plist */,
+				AF4BF2D0C965F328C6561997C8ABEB9B /* ThinCreditCard.modulemap */,
+				B742857542067FBE7AE06B1AC65EA01B /* ThinCreditCard.xcconfig */,
+				11BCD10AFD89E9A200F1E746A011DE2F /* ThinCreditCard-dummy.m */,
+				1D16EC541D786FF1C9F8CE16178103F0 /* ThinCreditCard-Info.plist */,
+				7C6FC8A7D8FC353240F8DDB9F8F7D7AB /* ThinCreditCard-prefix.pch */,
+				BE31E08DAC5B541749975E8C7B6849D3 /* ThinCreditCard-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/ThinCreditCard";
 			sourceTree = "<group>";
 		};
-		A7C5BCE851E3CA815106C6C8E4F05271 /* Algorithm */ = {
+		692F198605242E17A103D140C5B99B42 /* Formatters */ = {
 			isa = PBXGroup;
 			children = (
-				D6E140FBF70ECEA8584215256FF3E071 /* String+SwiftLuhn.swift */,
-				4290CB2EBDCF83839B9317F7E36C6341 /* SwiftLuhn.swift */,
-			);
-			name = Algorithm;
-			path = Algorithm;
-			sourceTree = "<group>";
-		};
-		B989317BB7293F31EE8DF155031F8F55 /* CreditCardValidator */ = {
-			isa = PBXGroup;
-			children = (
-				C698791374B4147758ADA50331D11676 /* Formatters */,
-				38E4407A47794E01879AF307A5BF2587 /* Validators */,
-				558C32D8C5EE6C75A465079D7B5F471D /* Views */,
-			);
-			name = CreditCardValidator;
-			path = ThinCreditCard/Classes/CreditCardValidator;
-			sourceTree = "<group>";
-		};
-		C698791374B4147758ADA50331D11676 /* Formatters */ = {
-			isa = PBXGroup;
-			children = (
-				90A7BE1358EAB7014B221FA5F4185740 /* CreditCardTextFormatter.swift */,
-				B84F40BB6EDD7C23ACD6F2E2E3E6B4F8 /* CreditCardTextFormatterProtocol.swift */,
+				A2C12765B2DD10CBC0E5460D6CA7DD88 /* CreditCardTextFormatter.swift */,
+				12034D5182FF0E176C191B7F2E28CBCB /* CreditCardTextFormatterProtocol.swift */,
 			);
 			name = Formatters;
 			path = Formatters;
 			sourceTree = "<group>";
 		};
-		C6C1DDEEBE868E4B8CFD1045D3420454 /* Resources */ = {
+		815EBF46377933C6E2C3AB260D1D56D2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C0744EB3ED6AC9E29F830AA93E4A4EE6 /* Media.xcassets */,
+				9BA7522FC0A100AACC27CBAA46142CB4 /* Pods_ThinCreditCard_Example.framework */,
+				0A9810F6CC31A0B7AE760611A42B1366 /* Pods_ThinCreditCard_Tests.framework */,
+				ED8751BD1B71EAE4D07D562D2BEBECB3 /* ThinCreditCard.bundle */,
+				9DA9FBF04046150207537C4994230956 /* ThinCreditCard.framework */,
 			);
-			name = Resources;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		C79FFF8152A526C33EAB8BE41ADDC678 /* Development Pods */ = {
+		8B8A8D3FF8E51980A76DE4CF3C84521F /* Pods-ThinCreditCard_Example */ = {
 			isa = PBXGroup;
 			children = (
-				7C90E95E3D296A3CDB2FB649D0F68965 /* ThinCreditCard */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		CC8925FC98199113EC40DAE9708857B2 /* Pods-ThinCreditCard_Example */ = {
-			isa = PBXGroup;
-			children = (
-				215C5C250FD985437BC066A1B0F89737 /* Info.plist */,
-				6094EED1331B667B52346BDC3FED8B72 /* Pods-ThinCreditCard_Example.modulemap */,
-				2BDA194440E26F4D91798B00EF397856 /* Pods-ThinCreditCard_Example-acknowledgements.markdown */,
-				772391D6087345A999EC6CA476FF9B34 /* Pods-ThinCreditCard_Example-acknowledgements.plist */,
-				388070648BD915EFF5E7FB83FFB41477 /* Pods-ThinCreditCard_Example-dummy.m */,
-				70C4C15C63D49C727ECFBFDF005D5095 /* Pods-ThinCreditCard_Example-frameworks.sh */,
-				35F9132890350525F3F400E19113F50F /* Pods-ThinCreditCard_Example-resources.sh */,
-				177AF1335BCDE3AB5DBFECD7C6883FE5 /* Pods-ThinCreditCard_Example-umbrella.h */,
-				5FDD81E91126C82B69065CA3FB9FBA9C /* Pods-ThinCreditCard_Example.debug.xcconfig */,
-				A84E29A7877B0C12EC98450F60311B63 /* Pods-ThinCreditCard_Example.release.xcconfig */,
+				DF8AF2B53F4CB204EE5B08D364ACD038 /* Pods-ThinCreditCard_Example.modulemap */,
+				DA4A689841D170D3633DCE0A24FCE415 /* Pods-ThinCreditCard_Example-acknowledgements.markdown */,
+				EBE970F796D9CC45285B2087D3537899 /* Pods-ThinCreditCard_Example-acknowledgements.plist */,
+				9E88425205DDF1345538EC795F269A1F /* Pods-ThinCreditCard_Example-dummy.m */,
+				16BABD815C9E9D995072A059C120FE1D /* Pods-ThinCreditCard_Example-frameworks.sh */,
+				CDD66E6BB8703906C9BA388BFDFCCFB5 /* Pods-ThinCreditCard_Example-Info.plist */,
+				06262BBA9E71F15384D0EFDCD3A1D0BF /* Pods-ThinCreditCard_Example-umbrella.h */,
+				1CE7EFE459670CD37C08AA011E569585 /* Pods-ThinCreditCard_Example.debug.xcconfig */,
+				B2F2C6CD9200C467A01EBF87BA3CAA38 /* Pods-ThinCreditCard_Example.release.xcconfig */,
 			);
 			name = "Pods-ThinCreditCard_Example";
 			path = "Target Support Files/Pods-ThinCreditCard_Example";
 			sourceTree = "<group>";
 		};
-		E468D0E6C208218A5FD3ACCDC8530177 /* Targets Support Files */ = {
+		953757A0D08A1DDEF21120A4621CBA75 /* Validators */ = {
 			isa = PBXGroup;
 			children = (
-				CC8925FC98199113EC40DAE9708857B2 /* Pods-ThinCreditCard_Example */,
-				272A2528CC2BB7289C14E8AB4D7D3E39 /* Pods-ThinCreditCard_Tests */,
+				D5DFEEF00AC0E7A55DF34517520EE6D7 /* CreditCardCvcValidator.swift */,
+				B799EF6E8742013E3B19B45BCA43614D /* CreditCardExpiryDateValidator.swift */,
+				AC0833F6E5D93BB0AB2D51BB09D15344 /* CreditCardImageValidator.swift */,
+				AFAD0334F870EEB37343CDAE28B0D54A /* CreditCardNumberValidator.swift */,
+				2C7EE298F50902C1278D0D1AD254684B /* CreditCardTextValidatorProtocol.swift */,
+				EFAF92E4CD098A1D8D483099D4EBF892 /* Algorithm */,
+			);
+			name = Validators;
+			path = Validators;
+			sourceTree = "<group>";
+		};
+		AAC402F6DE792C3419F7FD7E3CBF53D0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6F48F17EBB45604E98BA645850A7A64A /* LICENSE */,
+				2AC67E1C189F2E06EDE67CF23C939D5B /* README.md */,
+				FFAA449E0FC299DCECAD79C8FC687740 /* ThinCreditCard.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C38194561FEA9AE1526B69D3C31A576A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B8A8D3FF8E51980A76DE4CF3C84521F /* Pods-ThinCreditCard_Example */,
+				DDD372A908B1EE436F6F03C47011CF1D /* Pods-ThinCreditCard_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				ED093EE8C5F05915B4B27A9FD87D925F /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				815EBF46377933C6E2C3AB260D1D56D2 /* Products */,
+				C38194561FEA9AE1526B69D3C31A576A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DDD372A908B1EE436F6F03C47011CF1D /* Pods-ThinCreditCard_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				46EE62F58AAC645C28304D2883F4FF27 /* Pods-ThinCreditCard_Tests.modulemap */,
+				C58FF274B9D06666E4EC50DDBE475062 /* Pods-ThinCreditCard_Tests-acknowledgements.markdown */,
+				AB483113FF36E15DEEEAA24A0C8B4DC7 /* Pods-ThinCreditCard_Tests-acknowledgements.plist */,
+				6504EEAA6F5D6054FF1719816CFD2671 /* Pods-ThinCreditCard_Tests-dummy.m */,
+				E60F5B3C82ED50763E52045E52EF1E71 /* Pods-ThinCreditCard_Tests-Info.plist */,
+				BF0815FA578E012D4EFE05D49A8605DD /* Pods-ThinCreditCard_Tests-umbrella.h */,
+				7CBC64BD27847EAC5D19B7CA24DAC397 /* Pods-ThinCreditCard_Tests.debug.xcconfig */,
+				77087159634ED5B788B67F89B34621EA /* Pods-ThinCreditCard_Tests.release.xcconfig */,
+			);
+			name = "Pods-ThinCreditCard_Tests";
+			path = "Target Support Files/Pods-ThinCreditCard_Tests";
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E555B4BFDB1677A36BCBC8BA63C66A91 /* ThinCreditCard */ = {
+			isa = PBXGroup;
+			children = (
+				EB8AD74F6AB09F6C467FA31CD7034FDD /* CreditCardValidator */,
+				2FD24E5F3FC9BD7EF2F443D3621BD380 /* Helpers */,
+				AAC402F6DE792C3419F7FD7E3CBF53D0 /* Pod */,
+				030C25A6299393BC9D2D5A5C9150BB7E /* Resources */,
+				4F5E6140EC6F288EB60CA07BCF93519B /* Support Files */,
+			);
+			name = ThinCreditCard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EB8AD74F6AB09F6C467FA31CD7034FDD /* CreditCardValidator */ = {
+			isa = PBXGroup;
+			children = (
+				692F198605242E17A103D140C5B99B42 /* Formatters */,
+				953757A0D08A1DDEF21120A4621CBA75 /* Validators */,
+				4BCD0170ABE97C16524AB8F406A6B385 /* Views */,
+			);
+			name = CreditCardValidator;
+			path = ThinCreditCard/Classes/CreditCardValidator;
+			sourceTree = "<group>";
+		};
+		ED093EE8C5F05915B4B27A9FD87D925F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E555B4BFDB1677A36BCBC8BA63C66A91 /* ThinCreditCard */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EFAF92E4CD098A1D8D483099D4EBF892 /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				96E69426E6ABB6C7E5EEF259139CA690 /* String+SwiftLuhn.swift */,
+				59B5096F83A5F66A694D418430DC57DB /* SwiftLuhn.swift */,
+			);
+			name = Algorithm;
+			path = Algorithm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3BF6782738AF6DB2A6F98D66636709F7 /* Headers */ = {
+		6D1C5D50F682FA396BDA3F01067F358D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18DBD9C1FBB9E00574CE5130730E8E29 /* ThinCreditCard-umbrella.h in Headers */,
+				43772A12073F820B4557B0CC02CA3E90 /* Pods-ThinCreditCard_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		77B33FF1C2DE2D96871032868436E43F /* Headers */ = {
+		B7F995AE1588EA027FF729B5528E278F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				240B37D632D74650D7EF1FEABE15C253 /* Pods-ThinCreditCard_Tests-umbrella.h in Headers */,
+				7CC0C323C0CA6CB9C2C3CABD67B2F8B7 /* Pods-ThinCreditCard_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E38FEC0C7D6D585AC71E1455055D4CD5 /* Headers */ = {
+		F7847DB71E0F9C6BB7F5CAE7864E1C3B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D1723ECF660FF4566C7052B6E8FC842 /* Pods-ThinCreditCard_Example-umbrella.h in Headers */,
+				7B1F2278E84CFC2EAAEBD9C99909DC92 /* ThinCreditCard-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1AE0028118E43E2C19DA084081270EB2 /* Pods-ThinCreditCard_Tests */ = {
+		60536AC29C696447937EDFF6CFE515AF /* Pods-ThinCreditCard_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2252B58709144C98B9793E1F5E38D698 /* Build configuration list for PBXNativeTarget "Pods-ThinCreditCard_Tests" */;
+			buildConfigurationList = 0BB076E219CBD4C8634C11E353A4BDD0 /* Build configuration list for PBXNativeTarget "Pods-ThinCreditCard_Tests" */;
 			buildPhases = (
-				52078B0DF974690C737D99E949893B01 /* Sources */,
-				DBB9904BAD356F091BB809E712635310 /* Frameworks */,
-				77B33FF1C2DE2D96871032868436E43F /* Headers */,
+				6D1C5D50F682FA396BDA3F01067F358D /* Headers */,
+				2C8C12485706DCEC40B5888A4A6AD44B /* Sources */,
+				36ABA493D1EFFF3401D6FCA2A2D68DDD /* Frameworks */,
+				42977553A526C04413C6972D41CFFA8B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				70DDAB8BED57F43BBA66557E5EF7E93A /* PBXTargetDependency */,
 			);
 			name = "Pods-ThinCreditCard_Tests";
 			productName = "Pods-ThinCreditCard_Tests";
-			productReference = 74AFCD124654CABC855125BE0B48358A /* Pods_ThinCreditCard_Tests.framework */;
+			productReference = 0A9810F6CC31A0B7AE760611A42B1366 /* Pods_ThinCreditCard_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3EF65FD559C7C6E52B3C37294B316331 /* Pods-ThinCreditCard_Example */ = {
+		70CC5465394797570D3DB072094DFF4C /* ThinCreditCard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 93A07D4B52F60E7922F478F2826955AC /* Build configuration list for PBXNativeTarget "Pods-ThinCreditCard_Example" */;
+			buildConfigurationList = E104CB78D057CD154536B029C217DE15 /* Build configuration list for PBXNativeTarget "ThinCreditCard" */;
 			buildPhases = (
-				E63A4C798A3251B6172710350C01E58B /* Sources */,
-				E57EA792A7EBC7830D38C0ABBF4D1DCE /* Frameworks */,
-				E38FEC0C7D6D585AC71E1455055D4CD5 /* Headers */,
+				F7847DB71E0F9C6BB7F5CAE7864E1C3B /* Headers */,
+				A788F73023AACED8832DF8F4ABC2DA8A /* Sources */,
+				1A5E3F0BEF458F6750AF7FBB227E04E0 /* Frameworks */,
+				A76458A99E009F56E53265B3AC403344 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5D9BE5DFCA4CCB3599315FB88F50AC88 /* PBXTargetDependency */,
-			);
-			name = "Pods-ThinCreditCard_Example";
-			productName = "Pods-ThinCreditCard_Example";
-			productReference = EA23BB06287BDE01C613BB71950B7E75 /* Pods_ThinCreditCard_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		51DB5627754839017756E4917064A2C5 /* ThinCreditCard */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E5E6EFAC30E1A246A9B31DD77EFC7D16 /* Build configuration list for PBXNativeTarget "ThinCreditCard" */;
-			buildPhases = (
-				D48E80B2074D9922D640754106466995 /* Sources */,
-				9F61F5AF37B708610E6B448095BA86F7 /* Frameworks */,
-				045D8F940C0D03D617245C06712674E2 /* Resources */,
-				3BF6782738AF6DB2A6F98D66636709F7 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				836E83EEB0219A75DB24B360BE765BC7 /* PBXTargetDependency */,
+				8D30371097519CCD75390B45F5445F68 /* PBXTargetDependency */,
 			);
 			name = ThinCreditCard;
 			productName = ThinCreditCard;
-			productReference = 35D130C25326ADCA5E797C134816CBB4 /* ThinCreditCard.framework */;
+			productReference = 9DA9FBF04046150207537C4994230956 /* ThinCreditCard.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8F2A22C8C2C1BB45B63B6FC54AE77F86 /* ThinCreditCard-ThinCreditCard */ = {
+		E2380FB69040DB54604B58B02443E860 /* Pods-ThinCreditCard_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 12743757179257FD94EB2BA0A8498130 /* Build configuration list for PBXNativeTarget "ThinCreditCard-ThinCreditCard" */;
+			buildConfigurationList = E831BCB0F7D1C1B4D3702B5D4595E061 /* Build configuration list for PBXNativeTarget "Pods-ThinCreditCard_Example" */;
 			buildPhases = (
-				CC7BED76606901EE3A6A65D4F0DCA0EB /* Sources */,
-				91C8BE438E7295EC1DF3C8308204E33F /* Frameworks */,
-				5D1E5EED7859B7921799CBF27B42D6AC /* Resources */,
+				B7F995AE1588EA027FF729B5528E278F /* Headers */,
+				6DEC26C5E01BAF2BBADDCD290FB18959 /* Sources */,
+				3153A6C9BC7B699E0B2126537F4A59A3 /* Frameworks */,
+				FAEA4AAA6A64127420763AB9D0BBDD4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEBCD111400826C8F518F05FBD2AE806 /* PBXTargetDependency */,
+			);
+			name = "Pods-ThinCreditCard_Example";
+			productName = "Pods-ThinCreditCard_Example";
+			productReference = 9BA7522FC0A100AACC27CBAA46142CB4 /* Pods_ThinCreditCard_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EED8077789851A294E9E23D95ED4D56E /* ThinCreditCard-ThinCreditCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B0C98FE69BE054EBB5D1775227DEB31 /* Build configuration list for PBXNativeTarget "ThinCreditCard-ThinCreditCard" */;
+			buildPhases = (
+				B2E49415E1854D271AE4F522ABF08787 /* Sources */,
+				007BB88212D0D472F3AA3560556C9394 /* Frameworks */,
+				066C0A360FDE84F6AC9D0700F7F53285 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -431,49 +449,63 @@
 			);
 			name = "ThinCreditCard-ThinCreditCard";
 			productName = "ThinCreditCard-ThinCreditCard";
-			productReference = FF1CA4F32395877CE489DC66F409C6C4 /* ThinCreditCard.bundle */;
+			productReference = ED8751BD1B71EAE4D07D562D2BEBECB3 /* ThinCreditCard.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 157ADDF82752396C54247A4F753C1C49 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 815EBF46377933C6E2C3AB260D1D56D2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3EF65FD559C7C6E52B3C37294B316331 /* Pods-ThinCreditCard_Example */,
-				1AE0028118E43E2C19DA084081270EB2 /* Pods-ThinCreditCard_Tests */,
-				51DB5627754839017756E4917064A2C5 /* ThinCreditCard */,
-				8F2A22C8C2C1BB45B63B6FC54AE77F86 /* ThinCreditCard-ThinCreditCard */,
+				E2380FB69040DB54604B58B02443E860 /* Pods-ThinCreditCard_Example */,
+				60536AC29C696447937EDFF6CFE515AF /* Pods-ThinCreditCard_Tests */,
+				70CC5465394797570D3DB072094DFF4C /* ThinCreditCard */,
+				EED8077789851A294E9E23D95ED4D56E /* ThinCreditCard-ThinCreditCard */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		045D8F940C0D03D617245C06712674E2 /* Resources */ = {
+		066C0A360FDE84F6AC9D0700F7F53285 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09F48A9A9D51B9EF053CDB106F80C36A /* Media.xcassets in Resources */,
-				4D493134CE5238C36BFA304A57299FD2 /* ThinCreditCard.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D1E5EED7859B7921799CBF27B42D6AC /* Resources */ = {
+		42977553A526C04413C6972D41CFFA8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A76458A99E009F56E53265B3AC403344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B87370CBE495C656D0604672BDD9A359 /* Media.xcassets in Resources */,
+				F97423F4A093C29E0463E4102A87E2C5 /* ThinCreditCard.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEA4AAA6A64127420763AB9D0BBDD4E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -483,464 +515,477 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		52078B0DF974690C737D99E949893B01 /* Sources */ = {
+		2C8C12485706DCEC40B5888A4A6AD44B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A59BEEE6F15C258020E4C9021A8DB64A /* Pods-ThinCreditCard_Tests-dummy.m in Sources */,
+				A514A9674984F69795728FEF26E72DE3 /* Pods-ThinCreditCard_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC7BED76606901EE3A6A65D4F0DCA0EB /* Sources */ = {
+		6DEC26C5E01BAF2BBADDCD290FB18959 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E627A36E4E5DF8A88BBD6A4951715CE5 /* Pods-ThinCreditCard_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D48E80B2074D9922D640754106466995 /* Sources */ = {
+		A788F73023AACED8832DF8F4ABC2DA8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				861C69416FF69DCC963E407E956AFAA4 /* CreditCardCvcValidator.swift in Sources */,
-				C9A90F71478B3704F37F6ECA287CB471 /* CreditCardExpiryDateValidator.swift in Sources */,
-				DEF1729566AC3B9A6F2EA62A6C02B5E1 /* CreditCardImageValidator.swift in Sources */,
-				642BCB0DCB10CD5E46B122DD52356319 /* CreditCardInfoTextField.swift in Sources */,
-				EFD8D6D005BF0883587D2AE0444E2342 /* CreditCardNumberValidator.swift in Sources */,
-				B95D83EF90E1F231C99D9EBAA4588837 /* CreditCardTextFormatter.swift in Sources */,
-				3F6DA284B14942B0CBA91D2587D68DB8 /* CreditCardTextFormatterProtocol.swift in Sources */,
-				C89292EB71A9B04FFBD91DEE4A91BA67 /* CreditCardTextValidatorProtocol.swift in Sources */,
-				B2AED02383BB07A22301A9DCE5DA01B3 /* CreditCardValidatorView.swift in Sources */,
-				60E693043435A8975A851B140457E23F /* CreditCardValidatorView.xib in Sources */,
-				71E3CB72739FE5016C935D2366E6C2B7 /* NibView.swift in Sources */,
-				EC9B3151CAFBE970B6F20861EBE41836 /* String+Substring.swift in Sources */,
-				167F2CB5DCD9E9EB6D01D7F876CCE97C /* String+SwiftLuhn.swift in Sources */,
-				FB5235C0D30A072D2C45AE5CA397458B /* SwiftLuhn.swift in Sources */,
-				D08C4D4A2B45BDE6F2DA7744BB07378C /* ThinCreditCard-dummy.m in Sources */,
+				7DA7DA68E3EB3153CF3696763D28CE62 /* CreditCardCvcValidator.swift in Sources */,
+				D77006CA7B566A24E497C17A8ED729C3 /* CreditCardExpiryDateValidator.swift in Sources */,
+				4440F08253C7F842AD37920993FC445A /* CreditCardImageValidator.swift in Sources */,
+				70B775FF8F3F6DE8047143433430A260 /* CreditCardInfoTextField.swift in Sources */,
+				31EE1CBB0E7FE76E4F5F1F8E2BDCE0F2 /* CreditCardNumberValidator.swift in Sources */,
+				43CEF8BD0F24B2C499125896EFF00AA6 /* CreditCardTextFormatter.swift in Sources */,
+				CE16DB5A5F1054D92404BB9C35EC8B4E /* CreditCardTextFormatterProtocol.swift in Sources */,
+				E2E6B4875052A68B4B2E200E4BE41392 /* CreditCardTextValidatorProtocol.swift in Sources */,
+				8F8613B5F9D3AADAAEA926D53B8D4C2B /* CreditCardValidatorView.swift in Sources */,
+				4A411030D9D0E3F79F023E21AF039BE5 /* CreditCardValidatorView.xib in Sources */,
+				0E9CC646200AC7D431C80324E086D6DD /* NibView.swift in Sources */,
+				416135148111E8A511FB540539E39449 /* String+Substring.swift in Sources */,
+				9BD7266E2D6BED1D30A9C2D2DDD72AAF /* String+SwiftLuhn.swift in Sources */,
+				1366E0B7F4AC1598DD431BA41F63FBA3 /* SwiftLuhn.swift in Sources */,
+				1E2EC4D06725835EA51F3F89B7E02318 /* ThinCreditCard-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E63A4C798A3251B6172710350C01E58B /* Sources */ = {
+		B2E49415E1854D271AE4F522ABF08787 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF2F114CF2E9E5354AD9F057569DEA65 /* Pods-ThinCreditCard_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5D9BE5DFCA4CCB3599315FB88F50AC88 /* PBXTargetDependency */ = {
+		70DDAB8BED57F43BBA66557E5EF7E93A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ThinCreditCard;
-			target = 51DB5627754839017756E4917064A2C5 /* ThinCreditCard */;
-			targetProxy = 7CDEBEC7D4B6E2DB2C6F2C379CCA4AC6 /* PBXContainerItemProxy */;
+			name = "Pods-ThinCreditCard_Example";
+			target = E2380FB69040DB54604B58B02443E860 /* Pods-ThinCreditCard_Example */;
+			targetProxy = E329559DDF9275BA181B99E1ABB2F9EB /* PBXContainerItemProxy */;
 		};
-		836E83EEB0219A75DB24B360BE765BC7 /* PBXTargetDependency */ = {
+		8D30371097519CCD75390B45F5445F68 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "ThinCreditCard-ThinCreditCard";
-			target = 8F2A22C8C2C1BB45B63B6FC54AE77F86 /* ThinCreditCard-ThinCreditCard */;
-			targetProxy = D8E3799D760048D531BF48A00F8FA9B8 /* PBXContainerItemProxy */;
+			target = EED8077789851A294E9E23D95ED4D56E /* ThinCreditCard-ThinCreditCard */;
+			targetProxy = CA9C0A8EAA1668389201F888DADCBD2A /* PBXContainerItemProxy */;
+		};
+		BEBCD111400826C8F518F05FBD2AE806 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ThinCreditCard;
+			target = 70CC5465394797570D3DB072094DFF4C /* ThinCreditCard */;
+			targetProxy = CFD950B9ECBD3D396B2D53D872E910DC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0857D910FF94A4D09A897BC1EB652CCB /* Release */ = {
+		01B4B92D908EACCF9D01894983263244 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44381D104ABD98E36ADA762D51FF24B3 /* ThinCreditCard.xcconfig */;
+			baseConfigurationReference = 7CBC64BD27847EAC5D19B7CA24DAC397 /* Pods-ThinCreditCard_Tests.debug.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ThinCreditCard";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/ThinCreditCard/ResourceBundle-ThinCreditCard-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = ThinCreditCard;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		1642E808C5622A4D6D3105DCD4160414 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD2063198FA363B003E6EF46196296DC /* Pods-ThinCreditCard_Tests.release.xcconfig */;
-			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ThinCreditCard_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ThinCreditCard_Tests/Pods-ThinCreditCard_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ThinCreditCard_Tests/Pods-ThinCreditCard_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ThinCreditCard_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		363A9B1F67703467CAD0B59C690EAC7F /* Debug */ = {
+		269CF32E74504F5107FF5B929415371F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8D1A38209D8731917D62E839F386A83 /* Pods-ThinCreditCard_Tests.debug.xcconfig */;
+			baseConfigurationReference = 77087159634ED5B788B67F89B34621EA /* Pods-ThinCreditCard_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ThinCreditCard_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ThinCreditCard_Tests/Pods-ThinCreditCard_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ThinCreditCard_Tests/Pods-ThinCreditCard_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ThinCreditCard_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		575FA61DBCA3F1EFB92A5D433A3C5C5B /* Debug */ = {
+		3D4CB28A4A84FA2DF91270AD554E5FBA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44381D104ABD98E36ADA762D51FF24B3 /* ThinCreditCard.xcconfig */;
+			baseConfigurationReference = B2F2C6CD9200C467A01EBF87BA3CAA38 /* Pods-ThinCreditCard_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ThinCreditCard/ThinCreditCard-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ThinCreditCard/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ThinCreditCard/ThinCreditCard.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = ThinCreditCard;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6A31AF1A4BA11AFDAB4D5D2A2B7A1DA8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44381D104ABD98E36ADA762D51FF24B3 /* ThinCreditCard.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ThinCreditCard";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/ThinCreditCard/ResourceBundle-ThinCreditCard-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = ThinCreditCard;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		74B70333A3BE56DBA473D683C8B8A0D7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FDD81E91126C82B69065CA3FB9FBA9C /* Pods-ThinCreditCard_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ThinCreditCard_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ThinCreditCard_Example/Pods-ThinCreditCard_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ThinCreditCard_Example/Pods-ThinCreditCard_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ThinCreditCard_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		97803B46811A9BDB5E70FA1303AFBFFE /* Debug */ = {
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		9ED338A192D7C5A249E29E57C069AF17 /* Release */ = {
+		CABC030DF8AF4BEED5C4C7B518E98A92 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A84E29A7877B0C12EC98450F60311B63 /* Pods-ThinCreditCard_Example.release.xcconfig */;
+			baseConfigurationReference = 1CE7EFE459670CD37C08AA011E569585 /* Pods-ThinCreditCard_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ThinCreditCard_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ThinCreditCard_Example/Pods-ThinCreditCard_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ThinCreditCard_Example/Pods-ThinCreditCard_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ThinCreditCard_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+		CD53C12A422287EFA72F8A69A3E2A95E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B742857542067FBE7AE06B1AC65EA01B /* ThinCreditCard.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ThinCreditCard";
+				INFOPLIST_FILE = "Target Support Files/ThinCreditCard/ResourceBundle-ThinCreditCard-ThinCreditCard-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
+				PRODUCT_NAME = ThinCreditCard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
-		DDC2699C870193A483A8E274BAC7B86A /* Release */ = {
+		DD7167AAE5E84C7483813790070FEDF9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44381D104ABD98E36ADA762D51FF24B3 /* ThinCreditCard.xcconfig */;
+			baseConfigurationReference = B742857542067FBE7AE06B1AC65EA01B /* ThinCreditCard.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/ThinCreditCard/ThinCreditCard-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ThinCreditCard/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/ThinCreditCard/ThinCreditCard-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ThinCreditCard/ThinCreditCard.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_MODULE_NAME = ThinCreditCard;
 				PRODUCT_NAME = ThinCreditCard;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
+		DE0F94E2AA6FE90C5D71CF6FBE3C8B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B742857542067FBE7AE06B1AC65EA01B /* ThinCreditCard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ThinCreditCard";
+				INFOPLIST_FILE = "Target Support Files/ThinCreditCard/ResourceBundle-ThinCreditCard-ThinCreditCard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = ThinCreditCard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F5D2C2E7983B6AECB2E26161524B521F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B742857542067FBE7AE06B1AC65EA01B /* ThinCreditCard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ThinCreditCard/ThinCreditCard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ThinCreditCard/ThinCreditCard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ThinCreditCard/ThinCreditCard.modulemap";
+				PRODUCT_MODULE_NAME = ThinCreditCard;
+				PRODUCT_NAME = ThinCreditCard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		12743757179257FD94EB2BA0A8498130 /* Build configuration list for PBXNativeTarget "ThinCreditCard-ThinCreditCard" */ = {
+		0BB076E219CBD4C8634C11E353A4BDD0 /* Build configuration list for PBXNativeTarget "Pods-ThinCreditCard_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6A31AF1A4BA11AFDAB4D5D2A2B7A1DA8 /* Debug */,
-				0857D910FF94A4D09A897BC1EB652CCB /* Release */,
+				01B4B92D908EACCF9D01894983263244 /* Debug */,
+				269CF32E74504F5107FF5B929415371F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2252B58709144C98B9793E1F5E38D698 /* Build configuration list for PBXNativeTarget "Pods-ThinCreditCard_Tests" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				363A9B1F67703467CAD0B59C690EAC7F /* Debug */,
-				1642E808C5622A4D6D3105DCD4160414 /* Release */,
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		9B0C98FE69BE054EBB5D1775227DEB31 /* Build configuration list for PBXNativeTarget "ThinCreditCard-ThinCreditCard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				97803B46811A9BDB5E70FA1303AFBFFE /* Debug */,
-				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+				DE0F94E2AA6FE90C5D71CF6FBE3C8B3C /* Debug */,
+				CD53C12A422287EFA72F8A69A3E2A95E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		93A07D4B52F60E7922F478F2826955AC /* Build configuration list for PBXNativeTarget "Pods-ThinCreditCard_Example" */ = {
+		E104CB78D057CD154536B029C217DE15 /* Build configuration list for PBXNativeTarget "ThinCreditCard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				74B70333A3BE56DBA473D683C8B8A0D7 /* Debug */,
-				9ED338A192D7C5A249E29E57C069AF17 /* Release */,
+				F5D2C2E7983B6AECB2E26161524B521F /* Debug */,
+				DD7167AAE5E84C7483813790070FEDF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E5E6EFAC30E1A246A9B31DD77EFC7D16 /* Build configuration list for PBXNativeTarget "ThinCreditCard" */ = {
+		E831BCB0F7D1C1B4D3702B5D4595E061 /* Build configuration list for PBXNativeTarget "Pods-ThinCreditCard_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				575FA61DBCA3F1EFB92A5D433A3C5C5B /* Debug */,
-				DDC2699C870193A483A8E274BAC7B86A /* Release */,
+				CABC030DF8AF4BEED5C4C7B518E98A92 /* Debug */,
+				3D4CB28A4A84FA2DF91270AD554E5FBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
