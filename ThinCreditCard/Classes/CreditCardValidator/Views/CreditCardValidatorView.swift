@@ -70,6 +70,10 @@ open class CreditCardValidatorView: NibView {
         cvcTextField.placeholderColor = placeholderColor
     }
     
+    public func setCvcIsSecure(secure:Bool) {
+        cvcTextField.isSecureTextEntry = secure
+    }
+    
     override open func awakeFromNib() {
         super.awakeFromNib()
         configure()

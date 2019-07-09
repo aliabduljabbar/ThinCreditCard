@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         cardNumberView.setTextColor(textColor: UIColor.blue)
 //        cardNumberView.backgroundColor = UIColor.lightGray
         cardNumberView.setPlaceholderColor(placeholderColor: UIColor.lightGray)
-
+        cardNumberView.setCvcIsSecure(secure: true)
     }
 }
 
