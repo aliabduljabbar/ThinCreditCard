@@ -71,7 +71,7 @@ open class CreditCardValidatorView: NibView {
     }
     
     public func setPlaceholder(placeholder:String) {
-        if placeholder.count == 17 {
+        if placeholder.count == 19 {
             cardNumberTextField.placeholder = placeholder
         }
     }
