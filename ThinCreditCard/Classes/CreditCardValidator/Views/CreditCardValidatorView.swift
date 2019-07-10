@@ -70,6 +70,12 @@ open class CreditCardValidatorView: NibView {
         cvcTextField.placeholderColor = placeholderColor
     }
     
+    public func setPlaceholder(placeholder:String) {
+        if placeholder.count == 17 {
+            cardNumberTextField.placeholder = placeholder
+        }
+    }
+    
     public func setCvcIsSecure(secure:Bool) {
         cvcTextField.isSecureTextEntry = secure
     }

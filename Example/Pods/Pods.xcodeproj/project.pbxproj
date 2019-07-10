@@ -61,7 +61,7 @@
 
 /* Begin PBXFileReference section */
 		06262BBA9E71F15384D0EFDCD3A1D0BF /* Pods-ThinCreditCard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ThinCreditCard_Example-umbrella.h"; sourceTree = "<group>"; };
-		0A9810F6CC31A0B7AE760611A42B1366 /* Pods_ThinCreditCard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ThinCreditCard_Tests.framework; path = "Pods-ThinCreditCard_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A9810F6CC31A0B7AE760611A42B1366 /* Pods_ThinCreditCard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThinCreditCard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		103DBCBB91A75BB6628092427850358A /* CreditCardValidatorView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = CreditCardValidatorView.xib; sourceTree = "<group>"; };
 		11BCD10AFD89E9A200F1E746A011DE2F /* ThinCreditCard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ThinCreditCard-dummy.m"; sourceTree = "<group>"; };
 		12034D5182FF0E176C191B7F2E28CBCB /* CreditCardTextFormatterProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreditCardTextFormatterProtocol.swift; sourceTree = "<group>"; };
@@ -108,7 +108,7 @@
 		E60F5B3C82ED50763E52045E52EF1E71 /* Pods-ThinCreditCard_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThinCreditCard_Tests-Info.plist"; sourceTree = "<group>"; };
 		EBE970F796D9CC45285B2087D3537899 /* Pods-ThinCreditCard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThinCreditCard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		ED8751BD1B71EAE4D07D562D2BEBECB3 /* ThinCreditCard.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThinCreditCard.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFAA449E0FC299DCECAD79C8FC687740 /* ThinCreditCard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ThinCreditCard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FFAA449E0FC299DCECAD79C8FC687740 /* ThinCreditCard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ThinCreditCard.podspec; sourceTree = "<group>"; tabWidth = 2; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
