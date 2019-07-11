@@ -16,6 +16,30 @@ protocol CreditCardInfoTextFieldDelegate: class {
 
 final class CreditCardInfoTextField: UITextField {
     
+    var fieldTextColor : UIColor = .black {
+        didSet {
+            textColor = fieldTextColor
+        }
+    }
+    
+    var validateColor : UIColor = .red {
+        didSet {
+            textColor = validateColor
+        }
+    }
+    
+    var placeholderColor : UIColor = .lightGray {
+        didSet {
+            attributedPlaceholder = NSAttributedString(string: placeholder ?? "", attributes: [NSAttributedString.Key.foregroundColor: placeholderColor])
+        }
+    }
+    
+    override var placeholder: String? {
+        didSet {
+            attributedPlaceholder = NSAttributedString(string: placeholder ?? "", attributes: [NSAttributedString.Key.foregroundColor: placeholderColor])
+        }
+    }
+    
     enum Info {
         case number
         case expiryDate
@@ -52,7 +76,7 @@ final class CreditCardInfoTextField: UITextField {
     // MARK: - Properties
     private var validator: CreditCardTextValidatorProtocol?
     private var formatter: CreditCardTextFormatterProtocol?
-    open weak var infoDelegate: CreditCardInfoTextFieldDelegate?
+    public weak var infoDelegate: CreditCardInfoTextFieldDelegate?
     var info: Info = .number
     
     func configure(info: Info,
@@ -75,9 +99,16 @@ final class CreditCardInfoTextField: UITextField {
 
 // MARK: - UITextFieldDelegate
 extension CreditCardInfoTextField: UITextFieldDelegate {
-
+    
     func textFieldDidBeginEditing(_ textField: UITextField) {
-        resetText()
+        //resetText()
+        switch info {
+        case .number:
+            self.text = text
+        default:
+            self.text = text
+        }
+        
         updatePlaceholder()
         infoDelegate?.didBecomeFirstResponder(textField: self)
     }
@@ -92,13 +123,13 @@ extension CreditCardInfoTextField: UITextFieldDelegate {
 
         guard continueTyping else { return continueTyping }
         
-        textColor = .black
+        textColor = fieldTextColor
         let newString = range.length == 0 ? textFieldText + string : String(textFieldText.dropLast())
         infoDelegate?.didEdit(textField: self, with: newString)
 
         guard newLength == validator.maxLength else { return continueTyping }
         guard validator.validate(text: newString) else {
-            textColor = .red
+            textColor = validateColor
             return continueTyping
         }
         

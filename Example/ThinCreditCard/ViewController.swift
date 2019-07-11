@@ -17,6 +17,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var cardCvcLabel: UILabel!
     @IBOutlet weak var cardNumberView: CreditCardValidatorView!
     
+    var cardNumber : String?
+    
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,12 +27,19 @@ class ViewController: UIViewController {
     
     private func configure() {
         cardNumberView.delegate = self
+        cardNumberView.setFont(font: UIFont(name: "HelveticaNeue-Bold", size: 20.0)!)
+        cardNumberView.setTextColor(textColor: UIColor.blue)
+//        cardNumberView.backgroundColor = UIColor.lightGray
+        cardNumberView.setPlaceholderColor(placeholderColor: UIColor.lightGray)
+        cardNumberView.setCvcIsSecure(secure: true)
+        cardNumberView.setPlaceholder(placeholder: "XXXX XXXX XXXX XXXX")
     }
 }
 
 // MARK: - CreditCardValidatorViewDelegate
 extension ViewController: CreditCardValidatorViewDelegate {
     func didEdit(number: String) {
+        cardNumber = number
         cardNumberLabel.text = "Number: " + number
     }
     
@@ -40,6 +49,10 @@ extension ViewController: CreditCardValidatorViewDelegate {
     
     func didEdit(cvc: String) {
         cardCvcLabel.text = "CVC: " + cvc
+    }
+    
+    func willStartEdit() -> String? {
+        return cardNumber
     }
 }
 

@@ -12,6 +12,7 @@ import UIKit
     func didEdit(number: String)
     func didEdit(expiryDate: String)
     func didEdit(cvc: String)
+    func willStartEdit() -> String?
 }
 
 open class CreditCardValidatorView: NibView {
@@ -44,6 +45,41 @@ open class CreditCardValidatorView: NibView {
     }
     
     // MARK: - Lifecycle
+    
+    public func setFont(font:UIFont) {
+        cardNumberTextField.font = font
+        expiryDateTextField.font = font
+        cvcTextField.font = font
+    }
+    
+    public func setTextColor(textColor:UIColor) {
+        cardNumberTextField.fieldTextColor = textColor
+        expiryDateTextField.fieldTextColor = textColor
+        cvcTextField.fieldTextColor = textColor
+    }
+    
+    public func setValidationColor(validationColor:UIColor) {
+        cardNumberTextField.validateColor = validationColor
+        expiryDateTextField.validateColor = validationColor
+        cvcTextField.validateColor = validationColor
+    }
+    
+    public func setPlaceholderColor(placeholderColor:UIColor) {
+        cardNumberTextField.placeholderColor = placeholderColor
+        expiryDateTextField.placeholderColor = placeholderColor
+        cvcTextField.placeholderColor = placeholderColor
+    }
+    
+    public func setPlaceholder(placeholder:String) {
+        if placeholder.count == 19 {
+            cardNumberTextField.placeholder = placeholder
+        }
+    }
+    
+    public func setCvcIsSecure(secure:Bool) {
+        cvcTextField.isSecureTextEntry = secure
+    }
+    
     override open func awakeFromNib() {
         super.awakeFromNib()
         configure()
@@ -104,6 +140,10 @@ extension CreditCardValidatorView: CreditCardInfoTextFieldDelegate {
         switch textField {
         case cardNumberTextField:
             guard isExpiryDateVisible else { break }
+            if let cardNumber = delegate?.willStartEdit() {
+                cardNumberTextField.text = cardNumber
+                cardImageView.image = CreditCardImageValidator.image(side: .number(cardNumber))
+            }
             animateExpandNumberField()
         default:
             break
