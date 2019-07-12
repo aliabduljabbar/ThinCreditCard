@@ -33,6 +33,7 @@ class ViewController: UIViewController {
         cardNumberView.setPlaceholderColor(placeholderColor: UIColor.lightGray)
         cardNumberView.setCvcIsSecure(secure: true)
         cardNumberView.setPlaceholder(placeholder: "XXXX XXXX XXXX XXXX")
+        cardNumberView.becomeFirstResponder()
     }
 }
 

@@ -149,6 +149,16 @@ extension CreditCardValidatorView: CreditCardInfoTextFieldDelegate {
             break
         }
     }
+    
+    open override func becomeFirstResponder() -> Bool {
+        let isBecomeFirstResponser = super.becomeFirstResponder()
+        if isBecomeFirstResponser {
+            return true
+        } else {
+            cardNumberTextField.becomeFirstResponder()
+            return false
+        }
+    }
 }
 
 // MARK: - Animations
