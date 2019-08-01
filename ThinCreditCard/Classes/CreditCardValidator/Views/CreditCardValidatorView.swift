@@ -119,6 +119,10 @@ extension CreditCardValidatorView: CreditCardInfoTextFieldDelegate {
             return false
         }
     }
+    
+    open func makeFirstResponder() {
+        cardNumberTextField.becomeFirstResponder()
+    }
 }
 
 // MARK: - Animations
