@@ -52,7 +52,7 @@ final class CreditCardInfoTextField: UITextField {
     // MARK: - Properties
     private var validator: CreditCardTextValidatorProtocol?
     private var formatter: CreditCardTextFormatterProtocol?
-    open weak var infoDelegate: CreditCardInfoTextFieldDelegate?
+    public weak var infoDelegate: CreditCardInfoTextFieldDelegate?
     var info: Info = .number
     
     func configure(info: Info,
